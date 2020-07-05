@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearNegocio">
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="464dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtCrearTienda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_creartienda"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/monserrat"/>
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:ems="10"
+            android:hint="@string/title_store"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#9C9C9C"
+            android:fontFamily="@font/monserrat"/>
+
+        <EditText
+            android:id="@+id/txtDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:ems="10"
+            android:hint="@string/title_type"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#9C9C9C"
+            android:fontFamily="@font/monserrat"/>
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:ems="10"
+            android:hint="@string/title_telephone"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#9C9C9C"
+            android:fontFamily="@font/monserrat"/>
+
+        <Button
+            android:id="@+id/btnEmpezar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/btnrounded"
+            android:text="@string/title_create"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/monserrat"/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btnrounded"
+            android:text="@string/title_cancel"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/monserrat"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

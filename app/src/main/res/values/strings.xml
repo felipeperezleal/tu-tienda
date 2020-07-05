@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tu Tienda</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Entrar</string>
+    <string name="register">Registrarme con estas credenciales</string>
+    <string name="title_activity_menu_activity">Tu Tienda</string>
+    <string name="title_profile">Mi Tienda</string>
+    <string name="title_search">Buscar una Tienda</string>
+    <string name="body_search">Buscar...</string>
+    <string name="title_map">Mapa de Tiendas</string>
+    <string name="error_account">Rellene todos los datos</string>
+    <string name="title_creartienda">¡Creando Tu Tienda!</string>
+    <string name="title_store">Nombre de \'Tu Tienda\'</string>
+    <string name="title_type">Tipo de tienda (ej. supermercado.)</string>
+    <string name="title_telephone">Teléfono</string>
+    <string name="title_create">¡Empezar!</string>
+    <string name="title_cancel">Cancelar</string>
+    <string name="empty">...</string>
+    <string name="lat">Latitud </string>
+    <string name="lon">Longitud </string>
+    <string name="setlocation">Ubicación por coordenadas</string>
+    <string name="setcurrentlocation">Usar ubicación actual</string>
+    <string name="location">Ubicación de la tienda</string>
+</resources>
